@@ -13,7 +13,7 @@ public class Task2 {
 
 		System.out.println("State of empolyee:"+empolyee);
 
-		System.out.println("Salary:"+fixed/2);
+		System.out.println("Salary:"+fixed);
 
 		System.out.println("No.of hrs wroked:"+hrs);
 
@@ -41,7 +41,7 @@ public class Task2 {
 
 		t.salary("Full-time", 50000);
 
-		t.salary("Part-time", 50000, 5);
+		t.salary("Part-time", 500, 6);
 
 		t.salary("Freelancer", 7, 1000);
 }
