@@ -1,5 +1,5 @@
 package Day3;
-
+//Employee
 public class Task2 {
 	void salary(String empolyee, double fixed) {
 
