@@ -9,8 +9,8 @@ import java.io.IOException;
 public class Maintask {
 
     public static void main(String[] args) {
-        String inputFilePath = "input.txt"; // Input file containing student names and marks
-        String outputFilePath = "output.txt";  // Output file for results
+        String inputFilePath = "input.txt"; 
+        String outputFilePath = "output.txt";  
 
         try {
             BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\TEMP\\Desktop\\java\\input.txt"));
@@ -20,7 +20,7 @@ public class Maintask {
             int totalMarks = 0;
             int studentCount = 0;
 
-            // Read each line from the input file
+    
             while ((line = reader.readLine()) != null) {
                 String[] parts = line.split(","); // Assuming the format is "Name,Marks"
                 if (parts.length == 2) {
@@ -29,22 +29,21 @@ public class Maintask {
                     totalMarks += marks;
                     studentCount++;
 
-                    // Write individual results to the output file
+            
                     writer.write(name + ": " + marks);
                     writer.newLine();
                 }
             }
 
-            // Calculate average
+            
             double averageMarks = studentCount > 0 ? (double) totalMarks / studentCount : 0;
 
-            // Write total and average to the output file
             writer.write("Total Marks: " + totalMarks);
             writer.newLine();
             writer.write("Average Marks: " + averageMarks);
             writer.newLine();
 
-            // Close the resources
+    
             reader.close();
             writer.close();
 
