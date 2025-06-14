@@ -1,0 +1,26 @@
+create table student (
+    RollNo int ,
+    Name varchar(50),
+    Age int
+);
+
+create table course (
+    CourseID int,
+    CourseName varchar(50),
+    CourseFee int
+);
+
+
+insert into student (RollNo, Name, Age) VALUES
+(1, 'Arun', 30),
+(2, 'Priya', 31),
+(3, 'Resh', 32),
+(4, 'Resh', 39),
+(5, 'Rahul', 23);
+
+insert into course (CourseID, CourseName, CourseFee) VALUES
+(101, 'Java ', 500),
+(102, 'Python', 450),
+(103, 'Web Development', 600),
+(104, 'Data Science', 800),
+(105, 'SQL ', 400);
