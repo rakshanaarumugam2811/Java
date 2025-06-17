@@ -110,5 +110,265 @@ mysql> select name
 +------+
 1 row in set (0.00 sec)
 
+ select name
+    -> from emp
+    -> where name like 's%';
++------+
+| name |
++------+
+| scxd |
+| sdc  |
++------+
+2 rows in set (0.05 sec)
+
+mysql> select name
+    -> from emp
+    -> where ename like 'c%';
+ERROR 1054 (42S22): Unknown column 'ename' in 'where clause'
+mysql> select name
+    -> from emp
+    -> where name like 'c%';
+Empty set (0.00 sec)
+
+mysql> select name
+    -> from emp
+    -> where name like '%c';
++------+
+| name |
++------+
+| sdc  |
++------+
+1 row in set (0.00 sec)
+
+mysql> select name
+    -> from emp
+    -> where name like 's__d';
++------+
+| name |
++------+
+| scxd |
++------+
+1 row in set (0.00 sec)
+
+mysql> select name,salary
+    -> from emp
+    -> where name like '____';
++------+--------+
+| name | salary |
++------+--------+
+| scxd |  23344 |
++------+--------+
+1 row in set (0.00 sec)
+
+mysql> select name
+    -> from emp
+    -> where name like 's__';
++------+
+| name |
++------+
+| sdc  |
++------+
+1 row in set (0.00 sec)
+ select name
+    -> from emp
+    -> where name like 's%';
++------+
+| name |
++------+
+| scxd |
+| sdc  |
++------+
+2 rows in set (0.05 sec)
+
+mysql> select name
+    -> from emp
+    -> where ename like 'c%';
+ERROR 1054 (42S22): Unknown column 'ename' in 'where clause'
+mysql> select name
+    -> from emp
+    -> where name like 'c%';
+Empty set (0.00 sec)
+
+mysql> select name
+    -> from emp
+    -> where name like '%c';
++------+
+| name |
++------+
+| sdc  |
++------+
+1 row in set (0.00 sec)
+
+mysql> select name
+    -> from emp
+    -> where name like 's__d';
++------+
+| name |
++------+
+| scxd |
++------+
+1 row in set (0.00 sec)
+
+mysql> select name,salary
+    -> from emp
+    -> where name like '____';
++------+--------+
+| name | salary |
++------+--------+
+| scxd |  23344 |
++------+--------+
+1 row in set (0.00 sec)
+
+mysql> select name
+    -> from emp
+    -> where name like 's__';
++------+
+| name |
++------+
+| sdc  |
++------+
+1 row in set (0.00 sec)
+
+
+ select name
+    -> from emp
+    -> where name like 's%';
++------+
+| name |
++------+
+| scxd |
+| sdc  |
++------+
+2 rows in set (0.05 sec)
+
+mysql> select name
+    -> from emp
+    -> where ename like 'c%';
+ERROR 1054 (42S22): Unknown column 'ename' in 'where clause'
+mysql> select name
+    -> from emp
+    -> where name like 'c%';
+Empty set (0.00 sec)
+
+mysql> select name
+    -> from emp
+    -> where name like '%c';
++------+
+| name |
++------+
+| sdc  |
++------+
+1 row in set (0.00 sec)
+
+mysql> select name
+    -> from emp
+    -> where name like 's__d';
++------+
+| name |
++------+
+| scxd |
++------+
+1 row in set (0.00 sec)
+
+mysql> select name,salary
+    -> from emp
+    -> where name like '____';
++------+--------+
+| name | salary |
++------+--------+
+| scxd |  23344 |
++------+--------+
+1 row in set (0.00 sec)
+
+mysql> select name
+    -> from emp
+    -> where name like 's__';
++------+
+| name |
++------+
+| sdc  |
++------+
+1 row in set (0.00 sec)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ select name
+    -> from emp
+    -> where name like 's%';
++------+
+| name |
++------+
+| scxd |
+| sdc  |
++------+
+2 rows in set (0.05 sec)
+
+mysql> select name
+    -> from emp
+    -> where ename like 'c%';
+ERROR 1054 (42S22): Unknown column 'ename' in 'where clause'
+mysql> select name
+    -> from emp
+    -> where name like 'c%';
+Empty set (0.00 sec)
+
+mysql> select name
+    -> from emp
+    -> where name like '%c';
++------+
+| name |
++------+
+| sdc  |
++------+
+1 row in set (0.00 sec)
+
+mysql> select name
+    -> from emp
+    -> where name like 's__d';
++------+
+| name |
++------+
+| scxd |
++------+
+1 row in set (0.00 sec)
+
+mysql> select name,salary
+    -> from emp
+    -> where name like '____';
++------+--------+
+| name | salary |
++------+--------+
+| scxd |  23344 |
++------+--------+
+1 row in set (0.00 sec)
+
+mysql> select name
+    -> from emp
+    -> where name like 's__';
++------+
+| name |
++------+
+| sdc  |
++------+
+1 row in set (0.00 sec)
+
+mysql>
+
+
+
+
+
+
 
 
