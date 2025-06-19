@@ -1,0 +1,34 @@
+Task-1
+mysql> select * from stu1;
++------+-----------+
+| sno  | sname     |
++------+-----------+
+|    1 | Rakshana  |
+|    2 | Reshma    |
+|    3 | Nithya    |
+|    4 | Devi      |
+|    5 | Dharshini |
++------+-----------+
+mysql> select * from mark1;
++------+-------+
+| sno  | marks |
++------+-------+
+|    1 |   100 |
+|    2 |    90 |
+|    3 |    95 |
+|    4 |    89 |
+|    5 |    87 |
++------+-------+
+
+mysql> select * from stu1
+    -> inner join mark1
+    -> on stu1.sno=mark1.sno;
++------+-----------+------+-------+
+| sno  | sname     | sno  | marks |
++------+-----------+------+-------+
+|    1 | Rakshana  |    1 |   100 |
+|    2 | Reshma    |    2 |    90 |
+|    3 | Nithya    |    3 |    95 |
+|    4 | Devi      |    4 |    89 |
+|    5 | Dharshini |    5 |    87 |
++------+-----------+------+-------+
